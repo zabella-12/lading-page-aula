@@ -81,7 +81,7 @@ nav {
     color: #ECD6C4;
 }
 
-.main-content-subscribed button {
+.main-content-subscribed .button-main {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -94,9 +94,11 @@ nav {
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     border: none;
+    padding-top: 15px;
+    text-align: center;
 }
 
-.main-content-subscribed button:hover {
+.main-content-subscribed .button-main:hover {
     background-color: rgba(236, 214, 196, 0.53);
     transition: 1s;
     cursor: pointer;
